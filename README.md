@@ -32,3 +32,17 @@ All services are standalone Node.js applications running RESTful APIs on differe
 ```bash
 git clone https://github.com/mdadilansari/hms-project.git
 cd hms-project
+
+```
+
+### 2. Install and start each microservice
+
+For each service (replace `patients-service` with others as needed):
+
+```bash
+cd patients-service
+npm install
+node app.js
+# Service runs at http://localhost:3001
+
+```
